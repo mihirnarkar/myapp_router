@@ -13,9 +13,9 @@ import Contact from './components/Contact';
 
 function App() {
   return (
-    <Router basename="/myapp_router-for-testing">
+    <Router basename="/myapp_router">
       <Routes>
-        <Route path='/' element={<Home/>} />
+        <Route path='/myapp_router' element={<Home/>} />
         <Route path='about' element={<About/>} />
         <Route path='contact' element={<Contact/>} />
       </Routes>
