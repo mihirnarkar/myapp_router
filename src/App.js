@@ -13,7 +13,7 @@ import Contact from './components/Contact';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/myapp_router-for-testing">
       <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='about' element={<About/>} />
