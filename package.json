@@ -1,6 +1,6 @@
 {
   "name": "myapp_router",
-  "homepage" : "https://mihirnarkar.github.io/myapp_router-for-testing",
+  "homepage" : "https://mihirnarkar.github.io/myapp_router",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
