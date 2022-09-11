@@ -7,7 +7,8 @@ import{
 } from "react-router-dom"
 import About from './components/About';
 import Home from './components/Home'
-import ContactUs from './components/ContactUs';
+// import ContactUs from './components/ContactUs';
+import Contact from './components/Contact';
 
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='about' element={<About/>} />
-        <Route path='contactus' element={<ContactUs/>} />
+        <Route path='contact' element={<Contact/>} />
       </Routes>
     </Router>
   )
