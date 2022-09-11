@@ -1,7 +1,7 @@
 import './App.css';
 import React from 'react';
 import{
-  HashRouter as Router,
+  HashRouter,
   Routes,
   Route,
 } from "react-router-dom"
@@ -13,13 +13,13 @@ import Contact from './components/Contact';
 
 function App() {
   return (
-    <Router basename="/myapp_router">
+    <HashRouter>
       <Routes>
-        <Route path='/myapp_router' element={<Home/>} />
+        <Route path='/' element={<Home/>} />
         <Route path='about' element={<About/>} />
         <Route path='contact' element={<Contact/>} />
       </Routes>
-    </Router>
+    </HashRouter>
   )
 }
 export default App;
